@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "1740853605348",
+      "name": "VERUKONDA SAI TEJA ",
+      "email": "tejaverukonda@gmail.com",
+      "password": "$2a$10$ggyxqD95vKLiSz.FDTL3juAeFPs4nIYNV/hN6z1oGgIzdRMidux6K",
+      "role": "student",
+      "classroomAddress": "uvhbhb bdibdib jbibaib",
+      "createdAt": "2025-03-01T18:26:45.348Z"
+    }
+  ]
+}
