@@ -17,8 +17,10 @@ const PORT = process.env.PORT || 8080;
 // Middleware
 app.use(express.json());
 app.use(cookieParser());
+
+// CORS Configuration
 app.use(cors({
-  origin: 'http://localhost:5173', // Vite default port
+  origin: 'https://canteen-xpress-zcfj.vercel.app', // Allow frontend on Vercel
   credentials: true
 }));
 
