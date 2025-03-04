@@ -18,9 +18,10 @@ const PORT = process.env.PORT || 8080;
 app.use(express.json());
 app.use(cookieParser());
 
-// CORS Configuration
+// ✅ Fix CORS issue
 app.use(cors({
-  origin: 'https://canteen-xpress-zcfj.vercel.app', // Allow frontend on Vercel
+  origin: 'https://canteen-xpress-zcfj.vercel.app', // Allow frontend
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true
 }));
 
